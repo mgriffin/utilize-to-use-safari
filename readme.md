@@ -18,10 +18,6 @@ Download [UtilizeToUse.safariextz](https://raw.github.com/mgriffin/utilize-to-us
 
 ## History
 
-#### 1.1 - Adds another annoying word
-
-- Adds obligate to the list of annoying words, changes it to oblige
-
 #### 1.0 - Initial release
 
 - Changes utilize or utilise to use
