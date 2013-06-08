@@ -32,5 +32,10 @@ function handleText(textNode)  {
   v = v.replace(/\bUtilise\b/g, "Use");
   v = v.replace(/\butilise\b/g, "use");
   
+  v = v.replace(/\bUtilized\b/g, "Used");
+  v = v.replace(/\butilized\b/g, "used");
+  v = v.replace(/\bUtilised\b/g, "Used");
+  v = v.replace(/\butilised\b/g, "used");
+  
   textNode.nodeValue = v;
 }
