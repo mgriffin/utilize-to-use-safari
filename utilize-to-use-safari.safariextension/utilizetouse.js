@@ -37,5 +37,8 @@ function handleText(textNode)  {
   v = v.replace(/\bUtilised\b/g, "Used");
   v = v.replace(/\butilised\b/g, "used");
   
+  v = v.replace(/\bObligate\b/g, "Oblige");
+  v = v.replace(/\bobligate\b/g, "oblige");
+  
   textNode.nodeValue = v;
 }
